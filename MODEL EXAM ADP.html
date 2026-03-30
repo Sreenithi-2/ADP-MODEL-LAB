@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background-image: url("1.avif"); /* correct */
+    background-size: cover;
+    background-position: center;
+}
+
+.box{
+    background-color:wheat;
+    padding:20px;
+    width:300px;
+    border-radius:40px;
+    text-align:center;
+    border:1px solid black;
+}
+
+input{
+    margin:5px;
+}
+
+label{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+}
+
+</style>
+</head>
+
+<body>
+<div class="box">
+    <h1 style="color:rgb(12, 0, 139);">Welcome</h1>
+    <h3 style="color:brown">Create an account</h3>
+
+    <form>
+        Name:<br>
+        <input type="text" placeholder="Enter Name"><br><br>
+
+        Email:<br>
+        <input type="text" placeholder="Enter Email"><br><br>
+
+        Password:<br>
+        <input type="password" placeholder="Enter Password"><br><br>
+
+        <label>
+            <input type="checkbox">
+            I have accepted the Terms & Condition
+        </label><br><br>
+
+        <input type="button" value="LOGIN">
+        </form>
+        </div>
+    </body>
+</html>
+    
